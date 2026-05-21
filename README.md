@@ -129,7 +129,7 @@ ace, arj, rpm, deb
 ### Before Organization
 
 ```txt
-photobooth/
+downloads/
 ├── cat.png
 ├── music.mp3
 ├── report.pdf
@@ -140,7 +140,7 @@ photobooth/
 ### After Organization
 
 ```txt
-photobooth/
+downloads/
 ├── images/
 │   └── cat.png
 ├── audios/
@@ -285,7 +285,7 @@ Enter the target directory when prompted.
 Example:
 
 ```bash
-/mnt/c/Users/ADMIN/OneDrive/Pictures/photobooth
+/mnt/c/Users/ADMIN/downloads
 ```
 
 ---
@@ -295,11 +295,11 @@ Example:
 ```bash
 $ ./organizer.sh
 
-Moving: cat.png -> images
-Moving: music.mp3 -> audios
-Moving: report.pdf -> documents/pdfs
-Moving: movie.mp4 -> videos
-Moving: archive.zip -> zips
+renamed: cat.png -> images
+renamed: music.mp3 -> audios
+renamed: report.pdf -> documents/pdfs
+renamed: movie.mp4 -> videos
+renamed: archive.zip -> zips
 
 Successfully organised!!
 ```
@@ -347,7 +347,7 @@ Successfully organised!!
 ## Example WSL Path
 
 ```bash
-/mnt/c/Users/ADMIN/OneDrive/Pictures/photobooth
+/mnt/c/Users/ADMIN/downloads
 ```
 
 ---
@@ -370,5 +370,4 @@ opensource
 ---
 
 ## Author
-
-Developed by Abinaya Shanmugam as a Linux automation and Bash scripting project.
+Developed by Abinaya S as a Linux automation and Bash scripting project.
