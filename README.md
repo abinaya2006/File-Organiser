@@ -1,6 +1,6 @@
-# Linux File Organizer
+# Linux File Organiser
 
-A Bash-based file organization utility for Linux and WSL environments that automatically categorizes files into structured directories based on file extensions.
+A Bash-based file organisation utility for Linux and WSL environments that automatically categorizes files into structured directories based on file extensions.
 
 ---
 
@@ -126,7 +126,7 @@ ace, arj, rpm, deb
 
 ## Project Structure
 
-### Before Organization
+### Before organisation
 
 ```txt
 downloads/
@@ -137,7 +137,7 @@ downloads/
 └── archive.zip
 ```
 
-### After Organization
+### After organisation
 
 ```txt
 downloads/
@@ -261,13 +261,13 @@ git clone <repository-url>
 Navigate to the project directory:
 
 ```bash
-cd file-organizer
+cd file-organiser
 ```
 
 Make the script executable:
 
 ```bash
-chmod +x organizer.sh
+chmod +x organiser.sh
 ```
 
 ---
@@ -277,7 +277,7 @@ chmod +x organizer.sh
 Run the script:
 
 ```bash
-./organizer.sh
+./organiser.sh
 ```
 
 Enter the target directory when prompted.
@@ -293,7 +293,7 @@ Example:
 ## Sample Output
 
 ```bash
-$ ./organizer.sh
+$ ./organiser.sh
 
 renamed: cat.png -> images
 renamed: music.mp3 -> audios
@@ -352,22 +352,5 @@ Successfully organised!!
 
 ---
 
-## Repository Topics
-
-```txt
-bash
-linux
-shell-script
-automation
-wsl
-file-organizer
-linux-project
-bash-scripting
-filesystem
-opensource
-```
-
----
-
 ## Author
-Developed by Abinaya S as a Linux automation and Bash scripting project.
+Developed by [Abinaya S](https://github.com/abinaya2006) as a Linux automation and Bash scripting project.
